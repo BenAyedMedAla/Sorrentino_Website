@@ -250,6 +250,7 @@ button {
 .image_1 {
     width: 100%;
     float: left;
+    margin-left: 30%;
 }
 
 .logo {
