@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Sorrentino</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/sorrlogo-removebg-preview.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <!-- owl stylesheets --> 
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+   </head>
+   <body>
+
+    <div class="modal fade" id="info1" >  
+        <div class="modal-dialog">   
+          <div class="modal-content">
+          
+             <div class="modal-header" style="background-color: #90330e;">
+            <h1 class="modal-title" id="staticBackdropLabel">form</h1>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">X</button>
+            </div>
+            <div class="modal-body">
+            <form  action="./formulaireworker.php" method="post" class="container" id="form-job-seeker" enctype="multipart/form-data" > 
+              <!-- <div class="form-row"> -->
+                <!-- <div class="col-md-4 mb-3"> -->
+                  
+                  <div class="form-floating">
+                    <img src="./images/inj1.png" alt="">
+                   
+                    <div class="mt-5" >
+
+                        <p ><h3>Trattamento</h3><ul>
+                            <li><span>• Rughe sottili e mediamente pronunciate</span></li>
+
+                        </ul></p>
+                    </div>
+                    <div class="mt-5" >
+
+                        <p ><h3>Applicazione</h3><ul>
+                            <li><span>• Barcode</span></li>
+                            <li><span>• Cicatrici da acne</span></li>
+                            <li><span>• Rughe perioculari</span></li>
+
+                        </ul></p>
+                    </div>
+                    <div class="mt-2" >
+
+                        <p ><h3>Piano di iniezione</h3><ul>
+                            <li><span>• Piano Derma Superficiale</span></li>
+                        
+                        </ul></p>
+                    </div>
+
+                  </div>
+                </div> 
+                <div class="col-md-4 mb-3">
+                  
+                  <div class="form-floating">
+                   
+                  <input type="text" name="last_name"  class="form-control" id="last-name-job-seeker" placeholder="last_name" required>
+                  <label for="last-name-job-seeker" style="color: black;">Last name</label>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  
+                  <div class="form-floating">
+                   
+                  <input  type="text" name="phone_number"  class="form-control" id="phone-number-job-seeker" placeholder="phone_number" pattern="\d{8}" required>
+                  <label for="phone-number-job-seeker" style="color: black;">Phone number</label>
+                  </div>
+                </div>
+                </div>
+              <div class="form-row">
+                
+                <div class="col-md-6 mb-3">
+                <div class="form-floating">
+                <input name="city" type="text" class="form-control" id="city-job-seeker" placeholder="city" required>
+                <label for="city-job-seeker" style="color: black;">City</label>
+                </div>
+              </div>
+              
+               <div class="col-md-12 mb-3">
+              <div class="form-floating">
+              <input name="email" type="email" class="form-control" id="email-job-seeker" placeholder="email" required>
+              <label for="email-job-seeker" style="color: black;">E-mail address</label>
+              </div></div>
+              <div class="col-md-12 mb-3">
+              <div class="form-floating">
+              <input name="password" type="password" class="form-control" id="password-job-seeker" placeholder="password" required>
+              <label for="password" style="color: black;">Password</label>
+              </div>
+            </div> 
+            <div class="col-md-12 mb-3">
+              <div class="form-container">
+              <input name="valid-password" type="password" class="form-control" id="valid-password-job-seeker" placeholder="valid-password" required>
+              <label for="valid-password" style="color: black;">valider Password</label>
+              </div>
+            </div>
+              <div class="col-md-12 mb-3">
+              <div class="form-container">
+                <label for="cin">Please drop your CIN image in JPG format</label>
+                <input name="cin" type="file" class="form-control" id="cin-job-seeker" accept=".pdf" required>
+                <small id="cin-job-seeker" class="form-text text-muted">Please upload your CIN image in JPG format, with a maximum file size of 2MB.</small>
+              </div>
+            </div>
+            <div class="col-md-12 mb-3">
+              <div class="form-container">
+                <label for="cv">If you a CV Please drop it in PDF format</label>
+                <input name="cv" type="file" class="form-control" id="cv-job-seeker" accept=".pdf" >
+                <small id="cv-job-seeker" class="form-text text-muted">Please upload your CV in PDF format, with a maximum file size of 2MB.</small>
+              </div> 
+            </div>
+              
+              </div>
+              <div class="container">
+                  <div class="text-right">
+                
+                   <button name="registrer" class="btn btn-outline-primary mt-3 " >Register</button>
+                 
+                  </div>
+                </div>
+              </form>
+            </div>  
+            <div id="alertContainer-job-seeker"></div>
+            
+            </div>
+            
+          </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- javascript --> 
+    <script src="js/owl.carousel.js"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+ </body>
+</html>
