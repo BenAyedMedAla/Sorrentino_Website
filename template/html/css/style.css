@@ -238,7 +238,7 @@ button {
 }
 
 .bg-light {
-    background-color: #3d2306!important;
+    background-color: black!important;
 }
 
 .navbar {
@@ -298,7 +298,7 @@ button {
     width: 100%;
     float: left;
     padding-bottom: 90px;
-    background-color: #fae6c4;
+    background-color: #ECE3CA;
     height: auto;
     box-shadow: 0px 2px 10px 0px;
 }
@@ -307,7 +307,7 @@ button {
     width: 100%;
     float: left;
     font-size: 50px;
-    color: #7c2c0c;
+    color: #BDA366;
     font-weight: bold;
     line-height: 60px;
 }
@@ -316,7 +316,7 @@ button {
     width: 80%;
     float: left;
     font-size: 16px;
-    color: #7c2c0c;
+    color: black;
     margin: 0px;
     padding-top: 30px;
     font-weight: 500;
@@ -396,7 +396,7 @@ button {
     width: 100%;
     float: left;
     font-size: 30px;
-    color: #7c2c0c;
+    color: #BDA366;
     font-weight: bold;
     padding-top: 150px;
 }
@@ -419,7 +419,7 @@ button {
 .image_2 {
     width: 60%;
     float: left;
-    border: 1px solid #7c2c0c;
+    border: 1px solid #BDA366;
     padding: 40px;
     margin: 30px 0px 0px 115px;
 }
@@ -456,7 +456,7 @@ button {
     width: 100%;
     float: left;
     font-size: 18px;
-    color: #7c2c0c;
+    color: #BDA366;
     background-color: transparent;
     border: 1px solid #b48569;
     padding: 8px 5px;
@@ -466,7 +466,7 @@ button {
 
 .readmore_bt a:hover {
     color: #ffffff;
-    background-color: #7c2c0c;
+    background-color: #BDA366;
 }
 
 
@@ -489,7 +489,7 @@ button {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #7c2c0c;
+    color: #BDA366;
     text-align: center;
     font-weight: bold;
 }
@@ -523,7 +523,7 @@ button {
 .chair_text {
     width: 100%;
     font-size: 18px;
-    color: #7c2c0c;
+    color: #BDA366;
     text-align: center;
     margin: 0px;
     font-weight: 500;
@@ -554,7 +554,7 @@ button {
     width: 100%;
     font-size: 18px;
     color: #ffffff;
-    background-color: #7c2c0c;
+    background-color: #BDA366;
     padding: 8px 25px;
     text-align: center;
     text-transform: uppercase;
@@ -564,14 +564,14 @@ button {
 
 .buy_bt a:hover {
     color: #ffffff;
-    background-color: #7c2c0c;
+    background-color: #BDA366;
 }
 
 #my_slider a.carousel-control-next {
     position: absolute;
     right: 615px;
     top: 110%;
-    background-color: #7c2c0c;
+    background-color: #BDA366;
     color: #ffffff;
 }
 
@@ -597,7 +597,7 @@ button {
 #my_slider .carousel-control-prev:focus,
 #my_slider .carousel-control-next:focus {
     color: #ffffff;
-    background-color: #7c2c0c;
+    background-color: #BDA366;
 }
 
 .read_bt {
@@ -610,7 +610,7 @@ button {
     width: 100%;
     float: left;
     font-size: 18px;
-    color: #7c2c0c;
+    color: #BDA366;
     background-color: transparent;
     border: 1px solid #bb9180;
     padding: 8px 25px;
@@ -620,7 +620,7 @@ button {
 
 .read_bt a:hover {
     color: #ffffff;
-    background-color: #7c2c0c;
+    background-color: #BDA366;
 }
 
 
@@ -646,7 +646,7 @@ button {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #7c2c0c;
+    color: #BDA366;
     font-weight: bold;
 }
 
@@ -656,13 +656,13 @@ button {
     background-color: transparent;
     border: 1px solid #8b4222;
     padding: 8px 15px;
-    color: #7c2c0c;
+    color: #BDA366;
     font-size: 20px;
     margin-top: 30px;
 }
 
 input.email_text::placeholder {
-    color: #7c2c0c;
+    color: #BDA366;
 }
 
 .subscribe_bt {
@@ -676,16 +676,16 @@ input.email_text::placeholder {
     float: left;
     font-size: 16px;
     color: #ffffff;
-    background-color: #7c2c0c;
+    background-color: #BDA366;
     text-align: center;
     padding: 5px 20px;
     text-transform: uppercase;
     margin-top: 30px;
-    border: 1px solid #7c2c0c;
+    border: 1px solid #BDA366;
 }
 
 .subscribe_bt a:hover {
-    color: #7c2c0c;
+    color: #BDA366;
     background-color: transparent;
 }
 
@@ -705,7 +705,7 @@ input.email_text::placeholder {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #7c2c0c;
+    color: #BDA366;
     font-weight: bold;
 }
 
@@ -753,19 +753,19 @@ input.email_text::placeholder {
 .send_bt a {
     width: 100%;
     float: left;
-    background-color: #7c2c0c;
+    background-color: #BDA366;
     color: #ffffff;
     text-align: center;
     padding: 10px 0px;
     font-size: 16px;
     margin-top: 40px;
-    border: 1px solid #7c2c0c;
+    border: 1px solid #BDA366;
     font-weight: 500;
 }
 
 .send_bt a:hover {
     background-color: transparent;
-    color: #7c2c0c;
+    color: #BDA366;
 }
 
 .map_main {
@@ -811,7 +811,7 @@ input.email_text::placeholder {
 }
 
 .footer_location_text li a:hover {
-    color: #7c2c0c;
+    color: #BDA366;
 }
 
 .padding_left_10 {
@@ -858,11 +858,11 @@ input.email_text::placeholder {
 
 .facebookBtn:hover {
     color: #fff;
-    background: #7c2c0c;
+    background: #BDA366;
 }
 
 a.facebookBtn.smGlobalBtn.active {
-    background: #7c2c0c;
+    background: #BDA366;
 }
 
 
@@ -880,7 +880,7 @@ a.facebookBtn.smGlobalBtn.active {
 
 .twitterBtn:hover {
     color: #fff;
-    background: #7c2c0c;
+    background: #BDA366;
 }
 
 
@@ -898,7 +898,7 @@ a.facebookBtn.smGlobalBtn.active {
 
 .googleplusBtn:hover {
     color: #fff;
-    background: #7c2c0c;
+    background: #BDA366;
 }
 
 
@@ -916,7 +916,7 @@ a.facebookBtn.smGlobalBtn.active {
 
 .linkedinBtn:hover {
     color: #fff;
-    background: #7c2c0c;
+    background: #BDA366;
 }
 
 .useful_text {
@@ -967,7 +967,7 @@ a.facebookBtn.smGlobalBtn.active {
 }
 
 .footer_menu li a:hover {
-    color: #7c2c0c;
+    color: #BDA366;
 }
 
 
@@ -998,7 +998,7 @@ a.facebookBtn.smGlobalBtn.active {
 }
 
 .copyright_text a:hover {
-    color: #7c2c0c;
+    color: #BDA366;
 }
 
 
