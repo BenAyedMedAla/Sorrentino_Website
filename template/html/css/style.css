@@ -246,14 +246,29 @@ button {
     border-top: 20px solid #efe4d1;
     border-bottom: 20px solid #efe4d1;
 }
+.resin{
+    display: none;
+}
 
 
-
+.team-detail {
+	margin-top:40px;
+}
+.team-detail img {
+	
+	width: 70%;
+}
+.team-detail h4 {
+	color:rgb(11, 10, 116);
+	margin-top: 20px;
+	font-size: 17px;
+	margin-bottom: 0px;
+}
 
 .image_1 {
     width: 100%;
-    float: left;
-    margin-left: 30%;
+   
+    
 }
 
 .logo {
